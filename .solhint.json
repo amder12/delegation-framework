@@ -1,16 +1,16 @@
 {
   "extends": "solhint:recommended",
   "rules": {
-    "code-complexity": "off",
+    "code-complexity": "on",
     "compiler-version": ["error", "0.8.23"],
-    "const-name-snakecase": "off",
-    "contract-name-camelcase": "off",
-    "func-name-mixedcase": "off",
+    "const-name-snakecase": "on",
+    "contract-name-camelcase": "on",
+    "func-name-mixedcase": "on",
     "func-visibility": ["error", { "ignoreConstructors": true }],
     "max-line-length": ["error", 132],
-    "no-console": "off",
-    "no-global-import": "off",
-    "no-inline-assembly": "off",
+    "no-console": "on",
+    "no-global-import": "on",
+    "no-inline-assembly": "on",
     "not-rely-on-time": "off",
     "var-name-mixedcase": "off"
   }
